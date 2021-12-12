@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Full Sleeve Solid Men Quilted Jacket",
+        "price": 985,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "Clothing And Accessories",
+        "for": "Men",
+        "brand": "Fort Collins",
+        "size": ["S"],
+        "image": "https://rukminim1.flixcart.com/image/309/371/kflftzk0/jacket/p/z/z/xxl-1285-fk-breil-by-fort-collins-original-imafwyyegzzyx6s5.jpeg?q=50",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Solid Cap With Neck Warmer Cap  (Pack of 2)",
+        "price": 985,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "Clothing And Accessories",
+        "for": "Men",
+        "brand": "AmorMente",
+        "size": ["S"],
+        "image": "https://rukminim1.flixcart.com/image/452/542/kp5sya80/fabric/l/j/x/no-unstitched-best-seller-new-shirt-fabric-36-wopno-original-imag3gkytyhtnqyd.jpeg?q=50",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 3,
+        "title": "Self Design Banarasi Silk Blend, Cotton Blend Saree  (Pink)",
+        "price": 572,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "Clothing And Accessories",
+        "for": "Women",
+        "brand": "Cartyshop",
+        "size": ["L"],
+        "image": "https://rukminim1.flixcart.com/image/309/371/k4d27ww0/sari/f/s/k/free-new-more-kanjivaram-fashion-anusuya-saree-original-imafgvemre4fcxy6.jpeg?q=50",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 4,
+        "title": "Women Maxi Dark Green Dress",
+        "price": 324,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "Clothing And Accessories",
+        "for": "Women",
+        "brand": "NOBEY",
+        "size": ["M", "L"],
+        "image": "https://rukminim1.flixcart.com/image/309/371/kkwwu4w0/dress/g/3/z/m-fid-24-afeem-iqra-fashion-original-imagy5nzexvvfw9t.jpeg?q=50",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 5,
+        "title": "Full Sleeve Solid Women Sweatshirt",
+        "price": 690,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "Clothing And Accessories",
+        "for": "Women",
+        "brand": "FLEXIMAA",
+        "size": ["M"],
+        "image": "https://rukminim1.flixcart.com/image/309/371/j9st5zk0/sweatshirt/z/f/y/l-whomaroon-whoroyalblue-fleximaa-original-imaezgd5usq5z74v.jpeg?q=50",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 6,
+        "title": "Woven Cap With Neck Warmer Cap  (Pack of 2)",
+        "price": 210,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "Clothing And Accessories",
+        "for": "Men & Women",
+        "brand": "AmorMente",
+        "size": ["S","XL"],
+        "image": "https://rukminim1.flixcart.com/image/309/371/ki96c280-0/cap/o/b/j/free-brown-men-cap-with-neck-scarf-amormente-original-imafy3gmfjs39r7c.jpeg?q=50",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    }
+]

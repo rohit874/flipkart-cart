@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 8px 10px;
+  box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2);
+}
+.header h2{
+  color: #047BD5;
+  font-style: italic;
+}
+.header a{
+  text-decoration: none;
+  color: black;
+}
+.products_parent{
+  display: flex;
+}
+.products_heading{
+  margin: 10px 5px 5px 10px;
+  font-size: 18px;
+}
+.products{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* max-width: 2000px; */
+}
+.no_product{
+  margin: 30px;
+}
+
+.product_card{
+  width: 250px;
+  /* box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2); */
+  margin: 5px;
+  border-radius: 5px;
+}
+.product_card:hover{
+  box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2);
+}
+.product_card img{
+  width: 100%;
+  height: 270px;
+  border-radius: 3px;
+  object-fit: contain;
+}
+.product_card_text{
+  display: inline-block;
+  margin: 5px 5px 5px 10px;
+}
+.product_card_text h3{
+  color: #999999;
+  font-size: 15px;
+}
+.product_card_text h4{
+  font-size: 12px;
+  margin: 5px 0;
+}
+.product_card button{
+  text-align: center;
+  margin: 5px;
+  padding: 7px 5px;
+  width: 200px;
+  border-radius: 3px;
   color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #ffa550;
 }
 
-.App-link {
-  color: #61dafb;
+.cart_card{
+  max-width: 500px;
+  box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2);
+  margin: 5px 20px;
+  border-radius: 5px;
+  display: flex;
+}
+.cart_card:hover{
+  box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2);
+}
+.cart_card img{
+  width: 180px;
+  height: 180px;
+  border-radius: 3px;
+  object-fit: contain;
+}
+.cart_card_text{
+  display: inline-block;
+  margin: 5px 5px 5px 10px;
+}
+.cart_card_text h3{
+  color: #999999;
+  font-size: 15px;
+}
+.cart_card_text h4{
+  font-size: 12px;
+  margin: 5px 0;
+}
+.cart_card button{
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+.subtotal{
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
