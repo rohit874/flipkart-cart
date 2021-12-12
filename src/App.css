@@ -20,6 +20,8 @@
 }
 .products_parent{
   display: flex;
+  max-width: 1000px;
+  margin: 10px auto;
 }
 .products_heading{
   margin: 10px 5px 5px 10px;
@@ -74,7 +76,11 @@
   cursor: pointer;
   background-color: #ffa550;
 }
-
+.cart_parent{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
 .cart_card{
   max-width: 500px;
   box-shadow: 0 0px 5px 0 rgba(0,0,0,0.2);

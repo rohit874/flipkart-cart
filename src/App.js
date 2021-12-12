@@ -8,24 +8,35 @@ import {useState, useEffect} from 'react';
 
 function App() {
   const [cart, setCart] = useState([]);
+  const [wishlist, setWishlist] = useState([]);
+
+  
   useEffect(() => {
       const cart = window.localStorage.getItem('cart');
+      const wishlist = window.localStorage.getItem('wishlist');
       if (cart) {
         setCart(JSON.parse(cart));
         }
         else{
           window.localStorage.setItem('cart', JSON.stringify(cart))
         }
+      if (wishlist) {
+        setWishlist(JSON.parse(wishlist));
+        }
+        else{
+          window.localStorage.setItem('wishlist', JSON.stringify(wishlist))
+        }
   }, [])
 
   useEffect(() => {
       window.localStorage.setItem('cart', JSON.stringify(cart))
-  }, [cart]);
+      window.localStorage.setItem('wishlist', JSON.stringify(wishlist))
+  }, [cart,wishlist]);
 
   return (
     <>
     <Router>
-    <CartContext.Provider value={{ cart, setCart }}>
+    <CartContext.Provider value={{ cart, setCart, wishlist, setWishlist }}>
       <Header cart={cart} />
      <Switch>
      <Route path="/" component={Home} exact></Route>
